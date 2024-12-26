@@ -1,0 +1,22 @@
+.top-rated-page-body {
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  overflow-y: scroll;
+}
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.loader {
+  height: 50px;
+  width: 50px;
+}
+.top-rated-movies-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,55 @@
+.movie-card-container {
+  margin-top: 20px;
+  padding: 15px;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 6px;
+  border-color: red;
+}
+.text-container {
+  display: flex;
+  flex-direction: column;
+}
+.movie-card {
+  align-self: center;
+  margin: auto;
+}
+.movie-card-image {
+  height: 70px;
+  width: 70px;
+  margin-bottom: 6px;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+.movie-card-heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: blue;
+  font-weight: 500;
+}
+.movie-card-rating {
+  font-size: 20px;
+  color: green;
+}
+.view-details-btn {
+  height: 40px;
+  border-width: 0px;
+  border-radius: 5px;
+  width: 100px;
+  font-size: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: purple;
+  color: white;
+}
+.text-container {
+  display: flex;
+  flex-direction: column;
+}

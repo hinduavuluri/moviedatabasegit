@@ -1,0 +1,16 @@
+.page-body {
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: auto;
+}
+.loader-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.result-list{
+  list-style-type: none;
+}
